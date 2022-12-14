@@ -1,0 +1,14 @@
+# eureka default port = 8761
+server:
+  port: 8761
+
+# identify name in MSA
+spring:
+  application:
+    name: eureka-server
+
+# make client setting false
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
